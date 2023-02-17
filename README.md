@@ -8,6 +8,8 @@ Bun est une initiative toute jeune (pas encore stable) qui se veut être une alt
 
 ## Le principe de NodeJS
 
+![](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_41_59-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
+
 Le fonctionnement de NodeJS repose sur 2 fondations :
 
 Le moteur JavaScript V8 open source de Google qui va permettre d'éxécuter le code JavaScript.
@@ -37,3 +39,7 @@ Cette approche permet au fil principal (celui qui éxécute le JavaScript) de tr
 - V8 stable et puissant
 - Node standar library --> library de function ayant attrait au systeme  Modules(reseau, read write files, server web creation.
 - Library ecrite en C ---> EVENT LOOP --> eoute les events et executes le code de maniere asynchrone
+
+### Non bloquant
+
+![screen](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_40_15-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)

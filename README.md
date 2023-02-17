@@ -55,7 +55,24 @@ PHP --> sequentiel
 
 Node--> async
 
-![](![image](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_46_42-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
+![](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_46_42-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
 
+### illisible
+
+### Single Thread, ne rien faire qui demande beaucoup de calculs...
+> GO, Rust permettent de creer un new thread pour gerer ces taches lourdes.
+On peut mettre un systeme de cluster, mais c'est pas simple a utiliser, a la difference de d'autre systeme.
+
+### Bas Niveau, 
+la library standard offre peut de fonctionnalité notamennt pour creer des servers web, et on a vite besoin de servrces tiers.
+
+Good!
+
+- Beaucoup d'I/O --> call http / communication avec le syteme de firchier
+- Multiplateform, Mac windows linux
+- Un seul langage, un anneau pour les gouverner tous.
+- facile a apprendre.
+
+NPM, tres grosse communauté.
 
 

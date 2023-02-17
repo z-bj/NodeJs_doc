@@ -45,3 +45,7 @@ Cette approche permet au fil principal (celui qui éxécute le JavaScript) de tr
 ![screen](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_40_15-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
 
 ![](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_43_44-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
+
+### Weaknesses 
+
+![](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_45_53-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)

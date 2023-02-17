@@ -117,8 +117,10 @@ Ajouter une propriété "type": "module"dans votre package.json (vous pouvez gé
 Pour importer les modules propre à NodeJS on utilisera le nom du module préfixé par node:.
 
 ``` bash
+
 import fs from 'node:fs'
 const content = fs.readFileSync('demo.txt')
+
 ```
 
 On aura aussi la possibilité de n'importer que la méthodes qui nous intérèsse.
@@ -128,6 +130,7 @@ On aura aussi la possibilité de n'importer que la méthodes qui nous intérèss
 import { readFileSync } from 'node:fs'
 
 const content = readFileSync('demo.txt')
+
 ```
 
 
@@ -139,9 +142,13 @@ fs.<nom> permet de faire une opération de manière asynchrone en utilisant un c
 fsPromises.<nom> permet de faire une opération de manière asynchrone en renvoyant une promesse.
 En général, on aura tendance à utiliser la version avec les promesses vu qu'elle offre la forme la plus moderne. Par exemple pour lire un fichier on utilisera la méthode de cette manière.
     
-    ``` bash
     
-    import { readFile } from 'node:fs/promises';
+    
+    
+    
+``` bash
+    
+import { readFile } from 'node:fs/promises';
 
 try {
   const content = await readFile(fileName, { encoding: 'utf8 });
@@ -149,12 +156,13 @@ try {
   console.error("Impossible de lire le fichier " + err);
 }
     
-    ```
+```
 
 
     
     
 ## Méthodes utiles
+    
 Pour découvrir les différentes méthodes vous pouvez parcourir la documentation sur le système de fichier mais je vous propose une sélection des méthodes les plus utiles.
 
 readFile permet de lire un fichier (utiliser l'option encoding pour obtenir une chaîne de caractère).
@@ -165,13 +173,14 @@ rm permet de supprimer un fichier.
 readdir permet de lire le contenu d'un dossier
 stat permet d'obtenir des informations sur un fichier (taille, date de création, date de modification...)
 
-    ## Attention au chemin
+## Attention au chemin
+    
 Attention, si les chemins que vous passez à ces différentes méthodes sont relatif ils seront résolus par rapport au dossier dans lequel vous éxécutez le script NodeJS (et non pas relativement au fichier JavaScript dans lequel se trouve le code). Si vous voulez récupérer le chemin du fichier courant vous pouvez utiliser import.meta.url
 
 
-``` bash 
+``` bash
 
-    import { fileURLToPath } from 'node:url'
+import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const directory = dirname(fileURLToPath(import.meta.url))
@@ -180,7 +189,10 @@ console.log(content)
     
 ```
 
-    ## Lecture et écriture plus fine
+
+
+    
+## Lecture et écriture plus fine
 Pour des opération plus fine sur les fichier il est possible d'utiliser les méthode write et read qu'il faudra utiliser sur un fichier préalablement ouvert.
 
 ``` bash

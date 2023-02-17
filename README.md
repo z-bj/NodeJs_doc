@@ -165,13 +165,17 @@ try {
     
 Pour découvrir les différentes méthodes vous pouvez parcourir la documentation sur le système de fichier mais je vous propose une sélection des méthodes les plus utiles.
 
-readFile permet de lire un fichier (utiliser l'option encoding pour obtenir une chaîne de caractère).
-writeFile permet d'écrire dans un fichier (utiliser l'option flag en fonction de ce que vous voulez faire).
-copyFile
-rename
-rm permet de supprimer un fichier.
-readdir permet de lire le contenu d'un dossier
-stat permet d'obtenir des informations sur un fichier (taille, date de création, date de modification...)
+- readFile permet de lire un fichier (utiliser l'option encoding pour obtenir une chaîne de caractère).
+
+> console.log(import.meta.url) --> affiche le chemin absolu de l'emplacement du fichier en cours
+> console.log(__dirname) est un equivalent mais ne fonctionne pas dans ecmascript, 
+
+- writeFile permet d'écrire dans un fichier (utiliser l'option flag en fonction de ce que vous voulez faire).
+- copyFile
+- rename
+- rm permet de supprimer un fichier.
+- readdir permet de lire le contenu d'un dossier
+- stat permet d'obtenir des informations sur un fichier (taille, date de création, date de modification...)
 
 ## Attention au chemin
     

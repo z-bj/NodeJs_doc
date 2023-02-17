@@ -55,5 +55,7 @@ PHP --> sequentiel
 
 Node--> async
 
-![](![image](https://user-images.githubusercontent.com/60877601/219569980-5e09e886-b69a-438f-89bf-a04c9dbc9ead.png)
-)
+![](![image](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2008_46_42-JavaScript%20c%C3%B4t%C3%A9%20serveur%20%E2%80%94%20Formation%20Apprendre%20le%20JavaScript%20_%20Grafikart%20-%20Brave.jpg)
+
+
+

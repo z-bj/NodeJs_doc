@@ -76,6 +76,9 @@ Good!
 NPM, tres grosse communauté.
 
 
+![](https://github.com/z-bj/NodeJs_doc/blob/master/2023-02-17%2009_19_41-Volta%20-%20The%20Hassle-Free%20JavaScript%20Tool%20Manager%20-%20Brave.jpg)
+
+
 # À propos de ce tutoriel
 
 Dans ce chapitre nous allons voir comment installer NodeJS sur Linux et MacOS avec Volta. Cet outil va vous permettre de gérer plusieurs version de NodeJS et de pouvoir verrouiller une version spécifique à votre projet.

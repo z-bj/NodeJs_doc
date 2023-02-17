@@ -76,3 +76,28 @@ Good!
 NPM, tres grosse communauté.
 
 
+# À propos de ce tutoriel
+
+Dans ce chapitre nous allons voir comment installer NodeJS sur Linux et MacOS avec Volta. Cet outil va vous permettre de gérer plusieurs version de NodeJS et de pouvoir verrouiller une version spécifique à votre projet.
+
+Pour spécifier la version de NodeJS que l'on souhaite installer on pourra utiliser la commande.
+
+``` bash
+volta install node@18
+
+```
+
+Cela permet de définir la version qui sera utilisé par défaut mais lorsque l'on travaille sur un projet il sera préférable de verouiller la version utilisée à l'aide de la commande pin.
+
+``` bash
+
+volta pin node@18
+```
+Cette commande modifiera le fichier package.json pour ajouter une clef volta qui contiendra les versions des outils utilisés. Si un autre développeur travaille sur le projet avec volta, alors la même version sera utilisé (et téléchargé si nécessaire) lorsqu'il tapera une commande.
+
+
+
+
+
+
+
